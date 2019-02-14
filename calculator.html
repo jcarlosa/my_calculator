@@ -7,13 +7,16 @@ function elevado3(){
 	var num=document.getElementById("n1");
 	num.value=num.value*num.value*num.value;
 }
-
+function elevado4(){
+	var num=document.getElementById("n1");
+	num.value=num.value*num.value*(num.value*num.value);
+}
 </script>
 </head>
 <body>
 	<input type="text" id="n1" onclick="empty()">
 	<button onclick="elevado3()">x^3</button>
-
+	<button onclick="elevado4()">x^4</button>
 
 </body>
 </html>
